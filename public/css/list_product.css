@@ -1,0 +1,75 @@
+/* list_product.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update-button, .update-buttons {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.update-button:hover {
+    background-color: #218838;
+}
+
+.delete-button, .delete-buttons{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
