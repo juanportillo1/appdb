@@ -25,5 +25,21 @@ Este es un sistema en fase beta que simula una tienda online. Está diseñado pa
    ```bash
    git clone https://github.com/juanportillo1/appdb.git
    
-1. **Configurar la base de datos:**
+2. **Configurar la base de datos:**
   - Crear una base de datos MySQL llamada db_productos.
+  - Ejecuta una query para agregar las tablas (dbct.txt).
+
+3. **Configurar el entorno:**
+   - Asegurarse de tener un servidor local (como XAMPP o WAMP) configurado y ejecutándose.
+   - Colocar el proyecto clonado en el directorio raíz del servidor (e.g., htdocs para XAMPP).
+     
+4. **Actualizar la configuración de la base de datos:**
+   - Editar el archivo config/dbct.php con las credenciales de la base de datos:
+   ```bash
+     define('DB_HOST', 'localhost');
+     define('DB_NAME', 'db_productos');
+     define('DB_USER', 'root');
+     define('DB_PASS', '');
+     
+5. **Iniciar el servidor:**
+   - Navegar a http://localhost/appdb en el navegador para ver la aplicación en acción.
